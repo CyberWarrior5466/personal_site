@@ -45,7 +45,7 @@ img.dark-theme {
 
 body {
     max-width: 50%;
-    padding: 32px;
+    padding: 24px;
     margin: auto;
     background: var(--bkg-color);
 }
@@ -60,9 +60,8 @@ p {
 }
 
 button {
-    /* width: 200%; */
     float:right;
-    padding-top: 8px;
+    padding-top: 5px;
     padding-right: 16px;
     border: none;
     cursor: pointer;
