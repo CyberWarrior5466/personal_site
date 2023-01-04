@@ -1,5 +1,4 @@
-Visit it [here](https://www.asaleem.ml)
-
+- Domain [asaleem.ml](https://www.asaleem.ml) registered with [Freenom](https://www.freenom.com)
+- Hosted on [GitHub pages](https://pages.github.com/)
 - Icons from [Gnome](https://gitlab.gnome.org/sabriunal/icon-library)
-- Domain from [Freenom](https://www.freenom.com)
 - Licensed under LGPLv3
