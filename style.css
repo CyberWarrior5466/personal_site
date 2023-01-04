@@ -1,17 +1,70 @@
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
+}
+
+img {
+    --name: url("images/moon.svg");
+}
+
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+}
+
+img.dark-theme {
+    --name: url("images/sun.svg");
+}
+
 @media (prefers-color-scheme: dark) {
+
+    /* defaults to dark theme */
     body {
-        background: black
+        --text-color: #eee;
+        --bkg-color: #121212;
     }
-    h1, p {
-        color: white
+
+    img {
+        --name: url("images/sun.svg");
+    }
+
+    body.light-theme {
+        --text-color: #222;
+        --bkg-color: #fff;
+    }
+
+    img.light-theme {
+        --name: url("images/moon.svg");
     }
 }
 
-@media (prefers-color-scheme: white) {
-    body {
-        background: white
-    }
-    h1, p {
-        color: black
-    }
+
+* {
+    font-family: system-ui;
+}
+
+body {
+    max-width: 50%;
+    padding: 32px;
+    margin: auto;
+    background: var(--bkg-color);
+}
+
+img {
+    content: var(--name);
+}
+
+h1,
+p {
+    color: var(--text-color);
+}
+
+button {
+    /* width: 200%; */
+    float: right;
+    padding-top: 8px;
+    padding-right: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
 }
