@@ -6,10 +6,10 @@
   function toggle() {
     if (dark_theme.matches) {
       document.body.classList.toggle("light-theme");
-      document.getElementById("img").classList.toggle("light-theme");
+      document.getElementById("theme-switch").classList.toggle("light-theme");
     } else {
       document.body.classList.toggle("dark-theme");
-      document.getElementById("img").classList.toggle("dark-theme");
+      document.getElementById("theme-switch").classList.toggle("dark-theme");
     }
   }
 </script>
@@ -23,8 +23,9 @@
 
 <body>
   <main>
-    <h1>Personal site<button id="button" onclick="toggle()"><img id="img""></button></h1>
-    <p>View my <a href="https://github.com/CyberWarrior5466/personal_site" target="_blank" rel="noopener noreferrer">github</a></p>
+    <h1>Personal site
+      <button id="button" onclick="toggle()"><img id="theme-switch"></button>
+      <!-- <button id="github"><img id=""></button></h1> -->
   </main>
 </body>
 
