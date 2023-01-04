@@ -1,12 +1,12 @@
-body            { --text-color: black; --bkg-color: white; }
+body            { --text-color: #323232; --bkg-color: white; }
 img             { --theme-toggle: url("images/moon.svg"); --github: url("images/github-mark.svg"); }
-body.dark-theme {  --text-color: white; --bkg-color: black; }
+body.dark-theme {  --text-color: #fcfcfc; --bkg-color: #1e1e1e; }
 img.dark-theme  { --theme-toggle: url("images/sun.svg"); --github: url("images/github-mark-white.svg"); }
 
 @media (prefers-color-scheme: dark) {
-    body             { --text-color: white; --bkg-color: black; }
+    body             { --text-color: #fcfcfc; --bkg-color: #1e1e1e; }
     img              { --theme-toggle: url("images/sun.svg"); --github: url("images/github-mark-white.svg"); }
-    body.light-theme { --text-color: black; --bkg-color: white; }
+    body.light-theme { --text-color: #323232; --bkg-color: white; }
     img.light-theme  { --theme-toggle: url("images/moon.svg"); --github: url("images/github-mark.svg"); }
 }
 
